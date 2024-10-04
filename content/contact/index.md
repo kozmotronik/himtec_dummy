@@ -12,7 +12,7 @@ share: false
 #### Email
 info@example.com
 
-### Bize Yazın
+### Write Us
 Write us your thoughts or questions.
 
 {{< forms/contact_form >}}
