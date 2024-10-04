@@ -1,0 +1,280 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Arayüz yönünü değiştir
+
+- id: table_of_contents
+  translation: İçindekiler
+
+- id: on_this_page
+  translation: Bu sayfada
+
+- id: back_to_top
+  translation: Yukarı dön
+
+- id: home
+  translation: Giriş
+
+- id: close
+  translation: Kapat
+
+- id: languages
+  translation: Diller
+
+# General
+
+- id: related
+  translation: İlgili
+
+- id: minute_read
+  translation: okuma süresi
+
+- id: previous
+  translation: Önceki
+
+- id: next
+  translation: Sonraki
+
+- id: figure
+  translation: 'Görüntü %d:'
+
+- id: edit_page
+  translation: Edit this page
+
+# Themes
+
+- id: theme_selector
+  translation: Görüntüleme seçenekleri
+
+- id: theme_light
+  translation: Açık
+
+- id: theme_dark
+  translation: Koyu
+
+- id: theme_auto
+  translation: Otomatik
+
+# Buttons
+
+- id: btn_preprint
+  translation: Ön baskı
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: Alıntı
+
+- id: btn_slides
+  translation: Slaytlar
+
+- id: btn_video
+  translation: Video
+
+- id: btn_code
+  translation: Kod
+
+- id: btn_dataset
+  translation: Veri kümesi
+
+- id: btn_project
+  translation: Proje
+
+- id: btn_poster
+  translation: Poster
+
+- id: btn_source
+  translation: Kaynak Belge
+
+- id: btn_copy
+  translation: Kopyala
+
+- id: btn_copied
+  translation: Kopyalandı
+
+- id: btn_download
+  translation: İndir
+
+# About widget
+
+- id: interests
+  translation: İlgi alanları
+
+- id: education
+  translation: Eğitim
+
+- id: user_profile_latest
+  translation: Latest
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: See certificate
+
+# Experience widget
+
+- id: present
+  translation: Present
+
+# Pages widget
+
+- id: more_pages
+  translation: Hepsini gör
+
+- id: more_posts
+  translation: Daha fazla blog içeriği
+
+- id: more_talks
+  translation: Daha fazla konuşma
+
+- id: more_publications
+  translation: Daha fazla yayınlar
+
+# Form widget
+
+- id: form_name
+  translation: Ad
+
+- id: form_email
+  translation: Eposta
+
+- id: form_message
+  translation: Mesaj
+
+- id: form_attachment
+  translation: Dosya ekle
+
+- id: form_send
+  translation: Gönder
+
+- id: form_phone
+  translation: Telefon
+
+- id: form_msg_please_wait
+  translation: Lütfen bekleyiniz...
+
+- id: form_msg_success
+  translation: İşlem başarılı.
+
+- id: form_msg_success_contact
+  translation: Bizimle iletişime geçtiğiniz için teşekkürler. Gerekli görüldüğünde birkaç iş günü içerisinde size dönüş sağlanacaktır.
+
+- id: form_msg_failure
+  translation: Bir şeyler ters gitti! Lütfen daha sonra yeniden deneyin.
+
+- id: book_appointment
+  translation: Bir randevu al
+
+# Publication/Event details
+
+- id: abstract
+  translation: Özet
+
+- id: publication
+  translation: Yayın
+
+- id: publication_type
+  translation: Yayın tipi
+
+- id: date
+  translation: Tarih
+
+- id: last_updated
+  translation: Last updated on
+
+- id: event
+  translation: Etkinlikler
+
+- id: location
+  translation: Adres
+
+- id: pub_paper_conference
+  translation: Conference paper
+
+- id: pub_article_journal
+  translation: Journal article
+
+- id: pub_article
+  translation: Preprint
+
+- id: pub_report
+  translation: Report
+
+- id: pub_book
+  translation: Book
+
+- id: pub_chapter
+  translation: Book section
+
+- id: pub_thesis
+  translation: Thesis
+
+- id: pub_patent
+  translation: Patent
+
+# Project details
+
+- id: open_project_site
+  translation: Projenin sayfasına git
+
+# Content types for default archive page titles and search results
+
+- id: posts
+  translation: Blog içerikleri
+
+- id: publications
+  translation: Yayınlar
+
+- id: talks
+  translation: Konuşmalar
+
+- id: projects
+  translation: Projects
+
+- id: slides
+  translation: Slides
+
+- id: authors
+  translation: Authors
+
+# Search
+
+- id: search
+  translation: Ara
+
+- id: search_placeholder
+  translation: Ara...
+
+- id: search_results
+  translation: sonuç bulundu
+
+- id: search_no_results
+  translation: Hiç sonuç bulunamadı
+
+- id: search_common_queries
+  translation: Ortak aramalar
+
+# Error 404
+
+- id: page_not_found
+  translation: Sayfa bulunamadı
+
+- id: 404_recommendations
+  translation: Bunlardan birine bakıyor olabilir misiniz?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: Web sitemizde en iyi deneyimi yaşamanız için bu web sitesi çerezler kullanır.
+
+- id: cookie_dismiss
+  translation: Anladım!
+
+- id: cookie_learn
+  translation: Daha fazla öğren
+
+# Published with
+
+- id: published_with
+  translation: Published with {hugoblox} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.

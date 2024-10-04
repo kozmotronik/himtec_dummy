@@ -1,0 +1,30 @@
+<div class="mb-3">
+    <form method="post" id="form">
+
+        <input type="hidden" name="access_key" value="b0907061-6ff2-4111-9c32-5bb1f435e7bf">
+        <input type="hidden" name="from_name" value="Contact Form">
+        <input type="hidden" name="subject" value="New Contact Form">
+        <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+        <div class="form-group form-inline">
+            <label for="inputName">{{ i18n "form_name" }}</label><br>
+            <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "form_name" | default "Name" }}" required><br>
+        </div>
+        <div class="form-group form-inline">
+            <label for="inputEmail">{{ i18n "form_email" }}</label><br>
+            <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="{{ i18n "form_email" | default "Email" }}" required><br>
+        </div>
+        <div class="form-group">
+            <label for="inputMessage">{{ i18n "form_message" }}</label><br>
+            <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="{{ i18n "form_message" | default "Message" }}" required></textarea><br>
+        </div>
+        
+        <button type="submit" class="btn btn-outline-primary my-2 px-3 py-2 w-100">{{ i18n "form_send" | default "Send" }}</button>
+
+        <div id="result"></div>
+    </form>
+</div>
+{{ $i18n := dict "form_msg_please_wait" (i18n "form_msg_please_wait") "form_msg_success" (i18n "form_msg_success") "form_msg_success_contact" (i18n "form_msg_success_contact") "form_msg_failure" (i18n "form_msg_failure") }}
+{{ $opts := dict "i18n" $i18n "page" "contact" }}
+{{ $jsbuilt := resources.Get "js/form_handler_web3forms.js" | js.Build $opts }}
+<script src="{{ $jsbuilt.RelPermalink }}" defer></script>
